@@ -1,0 +1,29 @@
+{
+  "name": "wooden_fish",
+  "description": "电子木鱼chrome插件",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/sound": "^2.0.1",
+    "vue": "^3.5.11"
+  },
+  "devDependencies": {
+    "@wxt-dev/module-vue": "^1.0.1",
+    "sass-embedded": "^1.80.3",
+    "typescript": "^5.6.2",
+    "vue-tsc": "^2.1.6",
+    "wxt": "^0.19.11"
+  }
+}
